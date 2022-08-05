@@ -14,6 +14,8 @@ import static org.testng.Assert.fail;
 
 public class AnishaFBtest {
     private WebDriver driver;
+    private WebDriver d1river;
+    private WebDriver d2river;
     private String baseUrl;
 
     private StringBuffer verificationErrors = new StringBuffer();
